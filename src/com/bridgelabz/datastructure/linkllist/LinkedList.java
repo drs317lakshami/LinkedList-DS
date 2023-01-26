@@ -1,6 +1,7 @@
 package com.bridgelabz.datastructure.linkllist;
 
 public class LinkedList <T>{
+
     Node<T> head;
     Node<T> tail;
     public void add(T data) {
@@ -40,4 +41,4 @@ public class LinkedList <T>{
             System.out.println();
         }
     }
-}   
+}  
