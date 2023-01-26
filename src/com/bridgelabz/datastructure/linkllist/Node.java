@@ -1,5 +1,6 @@
 package com.bridgelabz.datastructure.linkllist;
 
+
 public class Node <T>{
     private T data;
     private Node<T> next;
@@ -19,5 +20,6 @@ public class Node <T>{
     }
     public void setNext(Node<T> next) {
         this.next = next;
+
     }
 }
