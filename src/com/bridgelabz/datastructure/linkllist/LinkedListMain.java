@@ -10,10 +10,18 @@ public class LinkedListMain {
             list1.add(56);
             list1.print();
             System.out.println("--------Ability to create Linked List by appending 30 and 70 to 56---------");
-            LinkedList<Integer> list2 = new LinkedList<>();
+            LinkedList<Integer> list2 = new LinkedList();
             list2.push(70);
             list2.push(30);
             list2.push(56);
             list2.print();
+            System.out.println("-------Insert element----------");
+            LinkedList list3 = new LinkedList();
+            list3.add(56);
+            list3.add(70);
+            list3.print();
+            list3.insert(30);
+            list3.print();
+
     }
     }
