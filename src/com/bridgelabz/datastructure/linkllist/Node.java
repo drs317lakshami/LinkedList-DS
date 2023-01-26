@@ -8,7 +8,6 @@ public class Node <T>{
     public Node(T data) {
         this.data = data;
     }
-
     public T getData() {
         return data;
     }
@@ -20,6 +19,5 @@ public class Node <T>{
     }
     public void setNext(Node<T> next) {
         this.next = next;
-
     }
 }

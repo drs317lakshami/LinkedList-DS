@@ -9,8 +9,8 @@ public class LinkedListMain {
         list1.add(30);
         list1.add(70);
         list1.print();
-        System.out.println("\n------After Deleting the Last element------");
-        list1.popLast(70);
+        System.out.println("------Searching for element 30 in the Linked List------");
+        list1.search(30);
         list1.print();
 
     }
