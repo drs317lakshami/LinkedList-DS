@@ -7,11 +7,11 @@ public class LinkedListMain {
         System.out.println("--------------Create Linked List----------------");
         list1.add(56);
         list1.add(30);
+        list1.add(40);
         list1.add(70);
         list1.print();
-        System.out.println("------Inserting 40 after 30 in the Linked List------");
-        list1.search(40,30);
+        System.out.println("\nDeleting 40 from the Linked List.");
+        list1.popMiddle(40);
         list1.print();
-
     }
 }
